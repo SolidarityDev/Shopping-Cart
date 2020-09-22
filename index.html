@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="heroes.json"></script> 
+    <script type="text/javascript" src="index.js" async></script>
+    <script type="text/javascript" src="cart.js" async></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <nav role = navigation>
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        <ul id="menu">
+                <a href="#characters"><li>The Characters</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="#cart"><li><mark>Cart</mark></li></a>
+        </ul>
+        </div>
+    </nav>
+<main>
+  <h1>Lord Of The Rings</h1>
+  <h2 id ="characters">Choose wisely my friend.</h2>
+  <div id="content-center">
+    <div class="shop-items">
+
+    </div>
+  </div>
+</main>
+<section class="container content-section">
+    <h2 class="section-header"id ="cart">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">CHARACTER</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">NUMBER OF HOUR</span>
+    </div>
+    <div class="cart-items">
+        
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">0€</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+
+</body>
+<script src="https://kit.fontawesome.com/e802210caa.js" crossorigin="anonymous"></script>
+</html>

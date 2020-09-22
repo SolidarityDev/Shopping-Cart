@@ -1,0 +1,51 @@
+[
+                    {
+                        "name":"Gandalf",
+                        "image": "../img/gandalf.jpg",
+                        "sentence":"yo dog",
+                        "price":"1000",
+                        "id" : "1"
+                    },
+                    {
+                        "name":"Aragorn",
+                        "image":"../img/aragorn.jpg",
+                        "price":"200",
+                        "id" : "2"
+                    },
+                    {
+                        "name":"Gimli",
+                        "image": "../img/gimli.png",
+                        "price":"50",
+                        "id" : "3"
+                    },
+                    {
+                        "name":"Legolas",
+                        "image": "../img/legolas.jpg",
+                        "price":"250",
+                        "id" : "4"
+                    },
+                    {
+                        "name":"Rioc",
+                        "image": "../img/bolg.jpg",
+                        "price":"300",
+                        "id" : "5"
+                    },
+                    {
+                        "name":"nazgul #1",
+                        "image": "../img/nazgul1.jpg",
+                        "price":"250",
+                        "id" : "6"
+                    },
+                    {
+                        "name":"nazgul #2",
+                        "image": "../img/nazgul2.jpg",
+                        "price":"350",
+                        "id" : "7"
+                    },
+                    {
+                        "name":"nazgul #3",
+                        "image": "../img/nazgul3.jpg",
+                        "price":"450",
+                        "id" : "8"
+                    }
+]
